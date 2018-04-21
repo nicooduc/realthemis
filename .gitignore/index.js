@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 
  
 
-bot.login('NDM2ODgwMTM3NjUzMzIxNzI5.Dbt8Tg.XNoCWEpemkqCvuO8bwhbm997W2Q')
+bot.login(process.env.TOKEN)
 
  
 
