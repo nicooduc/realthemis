@@ -20,7 +20,7 @@ bot.on('message', message => {
         args.shift()
         message.delete()
         bot.channels.get("436865762662154240").send('**Réponse envoyé par : **' + args.join(' '))
-        bot.channels.get("435521959179190274").send('Réponse envoyé')
+        bot.channels.get("463606091410964481").send('Réponse envoyé')
         console.error
     }
 }) 
