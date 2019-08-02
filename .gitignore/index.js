@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 bot.login(process.env.TOKEN)
 
 bot.on('ready', () =>{
-    bot.user.setPresence({ game: {name: 'attendre vos réponses'}})
+    bot.user.setPresence({ game: {name: 'vous surveiller'}})
     console.log('Le BOT est pret')
 })
  
